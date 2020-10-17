@@ -20,5 +20,5 @@ from hello.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/', index)
+    path('hello/templates/hello', index)
 ]
